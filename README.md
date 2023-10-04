@@ -10,3 +10,4 @@
 *Will Update note later* 
 
 ## Day Four
+**Agenda - JavaScript syntax, including whitespace, statements, identifiers, comments, expressions, and keywords**
