@@ -1,12 +1,12 @@
 # My 90 Days of Learning JavaScript 
 
-##Day One
+## Day One
 *Will Update note later* 
 
-##Day Two
+## Day Two
 *Will Update note later* 
 
-##Day Three
+## Day Three
 *Will Update note later* 
 
-##Day Four
+## Day Four
