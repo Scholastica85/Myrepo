@@ -10,3 +10,4 @@
 *Will Update note later* 
 
 **Day Four**
+Agenda - JavaScript Syntax
