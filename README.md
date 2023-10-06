@@ -11,3 +11,9 @@
 
 ## Day Four
 **Agenda - JavaScript syntax, including whitespace, statements, identifiers, comments, expressions, and keywords**
+
+## Day Five
+*Will Update note later*
+
+## Day Six
+### More on Variable
