@@ -16,4 +16,4 @@
 *Will Update note later*
 
 ## Day Six
-### More on Variable
+More on Variable
