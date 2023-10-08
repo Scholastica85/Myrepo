@@ -62,43 +62,47 @@ Note: The entire line becomes i--;, eliminating the need for the equal sign.
 
 ## Day Seven
 **More on Variable**
-We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
-Note: when you compute numbers, they are computed with finite precision. Operations using floating points may lead to different results than the desired outcome. one can also perform calculations like addition, substration and multiplication with decimal numbers, just like whole numbers.
-In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
+- We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
+- Note: when you compute numbers, they are computed with finite precision. Operations using floating points may lead to different results than the desired outcome. one can also perform calculations like addition, substration and multiplication with decimal numbers, just like whole numbers.
+- In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
-myVar = myVar + 5;
+```myVar = myVar + 5;```
 
-Though there are operators which do both a mathematical operation and assignment in one step.
+- Though there are operators which do both a mathematical operation and assignment in one step.
 
-One such operator is the += operator.
-let myVar = 1;
+- One such operator is the += operator.
+```let myVar = 1;
 myVar += 5;
 console.log(myVar);
-6 would be displayed in the console.
+6 would be displayed in the console.```
 
-Like the += operator, -= subtracts a number from a variable.
+ - Like the += operator, -= subtracts, /= division and *= multiplication  of a  number from a variable.
 
-myVar = myVar - 5;
-will subtract 5 from myVar. This can be rewritten as:
+```myVar -= 5; //will substract a myVar by 5. 
 
-myVar -= 5;
+myVar *= 5; //will multiply myVar by 5.
 
-he *= operator multiplies a variable by a number.
+myVar /= 5; //Will divide myVar by 5.```
 
-myVar = myVar * 5;
-will multiply myVar by 5. This can be rewritten as:
+## Day Eight 
+*Escaping Literal Quotes in Strings* 
+- When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: " or ' inside of your string?
 
-myVar *= 5;
+- In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
 
-The /= operator divides a variable by another number.
+- Example
 
-myVar = myVar / 5;
-Will divide myVar by 5. This can be rewritten as:
+```const sampleStr = "Alan said, \"Peter is learning Jav```
 
-myVar /= 5;
-**Escaping Literal Quotes in Strings**
-When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: " or ' inside of your string?
+**Escape Sequences in Strings**
+- Quotes are not the only characters that can be escaped inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
-
-const sampleStr = "Alan said, \"Peter is learning Jav
+```Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\t	tab
+\r	carriage return
+\b	backspace
+\f	form feed```
