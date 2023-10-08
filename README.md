@@ -70,10 +70,12 @@ Note: The entire line becomes i--;, eliminating the need for the equal sign.
 - Though there are operators which do both a mathematical operation and assignment in one step.
 
 - One such operator is the += operator.
+  
 ```let myVar = 1;
 myVar += 5;
 console.log(myVar);
-6 would be displayed in the console.```
+6 would be displayed in the console.
+```
 
  - Like the += operator, -= subtracts, /= division and *= multiplication  of a  number from a variable.
 
@@ -92,7 +94,8 @@ myVar /= 5; //Will divide myVar by 5.
 
 - Example
 
-```const sampleStr = "Alan said, \"Peter is learning Jav```
+```const sampleStr = "Alan said, \"Alan said, \"Peter is learning JavaScript\".";
+```
 
 **Escape Sequences in Strings**
 - Quotes are not the only characters that can be escaped inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
@@ -105,4 +108,6 @@ myVar /= 5; //Will divide myVar by 5.
 \t	tab
 \r	carriage return
 \b	backspace
-\f	form feed```
+\f	form feed
+```
+
