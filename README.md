@@ -23,8 +23,7 @@
 
 - After a value is assigned to a variable using the assignment operator, you can assign the value of that variable to another variable using the assignment operator.
   
-```
-var myVar;
+```var myVar;
 myVar = 5;
 var myNum;
 myNum = myVar;
@@ -82,10 +81,11 @@ console.log(myVar);
 
 myVar *= 5; //will multiply myVar by 5.
 
-myVar /= 5; //Will divide myVar by 5.```
+myVar /= 5; //Will divide myVar by 5.
+```
 
 ## Day Eight 
-*Escaping Literal Quotes in Strings* 
+**Escaping Literal Quotes in Strings** 
 - When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: " or ' inside of your string?
 
 - In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
