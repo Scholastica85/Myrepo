@@ -94,8 +94,7 @@ myVar /= 5; //Will divide myVar by 5.
 
 - Example
 
-```const sampleStr = "Alan said, \"Alan said, \"Peter is learning JavaScript\".";
-```
+```const sampleStr = "Alan said, \"Alan said, \"Peter is learning JavaScript\".";```
 
 **Escape Sequences in Strings**
 - Quotes are not the only characters that can be escaped inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
