@@ -110,3 +110,78 @@ myVar /= 5; //Will divide myVar by 5.
 \f	form feed
 ```
 
+## Day Nine 
+**Concatenating Strings with Plus Operator** 
+- In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. You can build a new string out of other strings by concatenating them together.
+
+```Example
+
+'My name is Alan,' + ' I concatenate.'
+```
+- We can also use the += operator to concatenate a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
+```Example:
+let ourStr = "I come first. ";
+ourStr += "I come second.";
+```
+**Constructing Strings with Variables**
+- Sometimes you will need to build a string. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+
+```Example:
+const ourName = "freeCodeCamp";
+const ourStr = "Hello, our name is " + ourName + ", how are you?";
+```
+**Appending Variables to Strings**
+- Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
+
+```Example:
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+```
+## Day Ten 
+**Find the Length of a String**
+- You can find the length of a String value by writing .length after the string variable or string literal.
+```console.log("Alan Peter".length);```
+- The value 10 would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
+- For example, if we created a variable const firstName = "Ada", we could find out how long the string Ada is by using the firstName.length property.
+
+**Use Bracket Notation to Find the First Character in a String**
+
+- Bracket notation is a way to get a character at a specific index within a string.
+
+- Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
+
+- For example, the character at index 0 in the word Charles is C. So if const firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].
+
+```Example:
+const firstName = "Charles";
+const firstLetter = firstName[0];
+firstLetter would have a value of the string C.
+```
+**Understand String Immutability**
+- In JavaScript, String values are immutable, which means that they cannot be altered once created.
+-For example, the following code will produce an error because the letter B in the string Bob cannot be changed to the letter J:
+```let myStr = "Bob";
+myStr[0] = "J";
+Note that this does not mean that myStr could not be re-assigned. The only way to change myStr would be to assign it with a new value, like this:
+let myStr = "Bob";
+myStr = "Job";
+```
+**Use Bracket Notation to Find the Last Character in a String**
+-In order to get the last letter of a string, you can subtract one from the string's length.
+-For example, if const firstName = "Ada", you can get the value of the last letter of the string by using firstName[firstName.length - 1].
+
+```Example:
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+lastLetter would have a value of the string a.
+```
+**Use Bracket Notation to Find the Nth-to-Last Character in a String**
+- You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+- For example, you can get the value of the third-to-last letter of the const firstName = "Augusta" string by using firstName[firstName.length - 3]
+
+```Example:
+const firstName = "Augusta";
+const thirdToLastLetter = firstName[firstName.length - 3];
+thirdToLastLetter would have a value of the string s.
+```
